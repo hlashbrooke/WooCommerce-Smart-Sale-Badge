@@ -1,30 +1,28 @@
-=== WordPress Plugin Template ===
+=== WooCommerce Smart Sale Badge ===
 Contributors: hlashbrooke
 Donate link: http://www.hughlashbrooke.com/donate
-Tags: wordpress, plugin, template
+Tags: woocommerce, products, sale, badge
 Requires at least: 3.0
 Tested up to: 3.5.1
 Stable tag: 1.0
 
-A comprehensive code template for any WordPress plugin.
+Enhances the WooCommerce sale badge by displaying the total saving a customer will receive
 
 == Description ==
 
-"WordPress Plugin Template" is an object-oriented code template for any kind of WordPress plugin that includes built-in support for:
+"WooCommerce Smart Sale Badge" enhances the built-in sale badge by displaying the total saving amount a customer will receive. It works with all the WooCommerce product types.
 
-1. Custom post types with custom fields and custom taxonomies
-1. Plugin settings page
-1. WPML localisation
+This plugin is WooCommerce 2.x and WPML compatible.
 
-Activating this plugin template in your WordPress dashboard will activate a new custom post type (identified as '*Posts' in the menu) as well as a new settings page (found at Settings > Plugin Settings). These pages are for demonstration purposes - all you need to do is edit the files in the plugin where necessary and these pages will reflect your new functionality.
+If you would like a more fully featured sale badge enhancement extension then be sure to check out Sale Flash Pro available for purchase from the WooThemes website: http://www.woothemes.com/products/sale-flash-pro/ (Sale Flash Pro was not written by me, but because WooCommerce Smart Sale Badge contains a limited feature set of Sale Flash Pro I will not be adding further features to this plugin).
 
 == Usage ==
 
-This plugin is intended to be a code framework for creating your own plugin. Just edit the files where necessary to have it working in the way that you need it to be.
+Simply install and activate the plugin and you'll be good to go.
 
 == Installation ==
 
-Installing "WordPress Plugin Template" can be done either by searching for "WordPress Plugin Template" via the "Plugins > Add New" screen in your WordPress dashboard, or by using the following steps:
+Installing "WooCommerce Smart Sale Badge" can be done either by searching for "WooCommerce Smart Sale Badge" via the "Plugins > Add New" screen in your WordPress dashboard, or by using the following steps:
 
 1. Download the plugin via WordPress.org
 1. Upload the ZIP file through the 'Plugins > Add New > Upload' screen in your WordPress dashboard
@@ -32,18 +30,18 @@ Installing "WordPress Plugin Template" can be done either by searching for "Word
 
 == Frequently Asked Questions ==
 
-= I've installed the plugin - now what? =
+= How do I edit/translate the text that appears on the badge? =
 
-While this plugin adds a post type, taxonomy and settings page to your WordPress dashboard, it is just a framework and is not intended for real world use in its current form. You need to edit the included files to buid your own plugin and create your own functionality.
+You can edit or translate the text displayed on the badge using the CodeStyling Localization plugin for WordPress.
 
 == Changelog ==
 
 = 1.0 =
-* 2012-12-13
-* Initial release
+* 2013-05-07
+* Initial release!
 
 == Upgrade Notice ==
 
 = 1.0 =
-* 2012-12-13
-* Initial release
+* 2013-05-07
+* Initial release!
