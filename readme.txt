@@ -34,6 +34,10 @@ Installing "WooCommerce Smart Sale Badge" can be done either by searching for "W
 
 You can edit or translate the text displayed on the badge using the CodeStyling Localization plugin for WordPress.
 
+== Screenshots ==
+
+1. The difference between the default and modified sale badges as displayed in the Twenty Twelve theme.
+
 == Changelog ==
 
 = 1.0 =
