@@ -40,6 +40,8 @@ class WooCommerce_Smart_Sale_Badge {
 
 			}
 
+			$button_text = __( 'Save up to', 'wc_smart_sale_badge' );
+
 		} else {
 
 			// Fetch prices for simple products
@@ -50,28 +52,30 @@ class WooCommerce_Smart_Sale_Badge {
 				$saving_amount = $regular_price - $sale_price;
 			}
 
+			$button_text = __( 'Save', 'wc_smart_sale_badge' );
+
 		}
 
 		// Only modify badge if saving amount is larger than 0
 		if( $saving_amount > 0 ) {
 			$saving_price = woocommerce_price( $saving_amount );
-			$message = '<span class="onsale">' . sprintf( __( 'Save %s!', 'woocommerce' ), $saving_price ) . '</span>';
+			$message = '<span class="onsale">' . $button_text . sprintf( __( ' %s!', 'wc_smart_sale_badge' ), $saving_price ) . '</span>';
 		}
-		
+
 		return $message;
 	}
-	
-	public function load_localisation () {
+
+	public function load_localisation() {
 		load_plugin_textdomain( 'wc_smart_sale_badge' , false , dirname( plugin_basename( $this->file ) ) . '/lang/' );
 	}
-	
-	public function load_plugin_textdomain () {
+
+	public function load_plugin_textdomain() {
 	    $domain = 'wc_smart_sale_badge';
-	    
+
 	    $locale = apply_filters( 'plugin_locale' , get_locale() , $domain );
-	 
+
 	    load_textdomain( $domain , WP_LANG_DIR . '/' . $domain . '/' . $domain . '-' . $locale . '.mo' );
 	    load_plugin_textdomain( $domain , FALSE , dirname( plugin_basename( $this->file ) ) . '/lang/' );
 	}
-	
+
 }

@@ -10,7 +10,7 @@ Enhances the WooCommerce sale badge by displaying the total saving a customer wi
 
 == Description ==
 
-"WooCommerce Smart Sale Badge" enhances the built-in sale badge by displaying the total saving amount a customer will receive. It works with all the WooCommerce product types.
+"WooCommerce Smart Sale Badge" enhances the built-in sale badge by displaying the total saving amount a customer will receive. The plugin works with all the WooCommerce product types - simple and external products will display a badge that says 'Save $X!', while variable and grouped products will display 'Save up to $X!'.
 
 This plugin is WooCommerce 2.x and WPML compatible.
 
@@ -36,16 +36,16 @@ You can edit or translate the text displayed on the badge using the CodeStyling 
 
 == Screenshots ==
 
-1. The difference between the default and modified sale badges as displayed in the Twenty Twelve theme.
+1. The difference between the default and modified sale badges for simple & external products as displayed in the Twenty Twelve theme.
 
 == Changelog ==
 
 = 1.0 =
-* 2013-05-07
+* 2013-05-10
 * Initial release!
 
 == Upgrade Notice ==
 
 = 1.0 =
-* 2013-05-07
+* 2013-05-10
 * Initial release!
