@@ -3,7 +3,7 @@ Contributors: hlashbrooke
 Donate link: http://www.hughlashbrooke.com/donate
 Tags: woocommerce, products, sale, badge
 Requires at least: 3.0
-Tested up to: 3.5.1
+Tested up to: 4.0
 Stable tag: 1.0
 
 Enhances the WooCommerce sale badge by displaying the total saving a customer will receive
@@ -33,6 +33,10 @@ Installing "WooCommerce Smart Sale Badge" can be done either by searching for "W
 = How do I edit/translate the text that appears on the badge? =
 
 You can edit or translate the text displayed on the badge using the CodeStyling Localization plugin for WordPress.
+
+= My sale badge isn't displaying correctly - what gives!? =
+
+This plugin does not create the sale badge - that work is done by WooCommerce itself and your theme will handle the styling of the badge. All this plugin does is modify the text that appears on the badge, so if your display is wrong then the issue will be related to your theme and not this plugin.
 
 == Screenshots ==
 
