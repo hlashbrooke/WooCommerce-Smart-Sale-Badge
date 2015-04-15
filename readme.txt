@@ -1,12 +1,12 @@
 === WooCommerce Smart Sale Badge ===
 Contributors: hlashbrooke
 Donate link: http://www.hughlashbrooke.com/donate
-Tags: woocommerce, products, sale, badge
-Requires at least: 3.0
-Tested up to: 4.0
-Stable tag: 1.0
+Tags: woocommerce, products, sale, badge, discount, ecommerce
+Requires at least: 4.0
+Tested up to: 4.1.1
+Stable tag: 1.1
 
-Enhances the WooCommerce sale badge by displaying the total saving a customer will receive
+Enhances the WooCommerce sale badge by displaying the total saving a customer will receive.
 
 == Description ==
 
@@ -44,12 +44,18 @@ This plugin does not create the sale badge - that work is done by WooCommerce it
 
 == Changelog ==
 
+= 1.1 =
+* 2014-04-15
+* [NEW] Adding `wc_smart_sale_badge_title` and `wc_smart_sale_badge_price` filters. Props @danmorton.
+* [NEW] Adding Russian translation. Props @advokatb.
+* [NEW] Adding localisation template file.
+
 = 1.0 =
 * 2013-05-10
 * Initial release!
 
 == Upgrade Notice ==
 
-= 1.0 =
+= 1.1 =
 * 2013-05-10
-* Initial release!
+* Adding useful filters for dynamic display of sale badge text as well as Russian translations os text strings.
