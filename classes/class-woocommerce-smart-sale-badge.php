@@ -40,7 +40,7 @@ class WooCommerce_Smart_Sale_Badge {
 
 			}
 
-			$button_text = apply_filters("woo_smart_badge_title", __( 'Save up to', 'wc_smart_sale_badge' ), $product->has_child(), $product);
+			$button_text = apply_filters("wc_smart_sale_badge_title", __( 'Save up to', 'wc_smart_sale_badge' ), $product->has_child(), $product);
 
 		} else {
 
@@ -52,14 +52,14 @@ class WooCommerce_Smart_Sale_Badge {
 				$saving_amount = $regular_price - $sale_price;
 			}
 
-			$button_text = apply_filters("woo_smart_badge_title", __( 'Save', 'wc_smart_sale_badge' ), $product->has_child(), $product);
+			$button_text = apply_filters("wc_smart_sale_badge_title", __( 'Save', 'wc_smart_sale_badge' ), $product->has_child(), $product);
 
 		}
 
 		// Only modify badge if saving amount is larger than 0
 		if( $saving_amount > 0 ) {
 			$saving_price = woocommerce_price( $saving_amount );
-			$saving_price_r = apply_filters("woo_smart_badge_price", sprintf( __( ' %s!', 'wc_smart_sale_badge' ), $saving_price ), $saving_price, $product);
+			$saving_price_r = apply_filters("wc_smart_sale_badge_price", sprintf( __( ' %s!', 'wc_smart_sale_badge' ), $saving_price ), $saving_price, $product);
 			$message = '<span class="onsale">' . $button_text . $saving_price_r . '</span>';
 		}
 
